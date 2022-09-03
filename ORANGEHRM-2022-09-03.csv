@@ -1,0 +1,244 @@
+id,title,description,preconditions,postconditions,tags,priority,severity,type,behavior,automation,status,is_flaky,layer,steps_type,steps_actions,steps_result,steps_data,milestone_id,milestone,suite_id,suite_parent_id,suite,suite_without_cases
+,,,,,,,,,,,,,,,,,,,,9,,"Final Project Sanbercode",1
+,,,,,,,,,,,,,,,,,,,,10,9,Admin,1
+,,,,,,,,,,,,,,,,,,,,10,9,Admin,1
+,,,,,,,,,,,,,,,,,,,,11,9,PIM,1
+,,,,,,,,,,,,,,,,,,,,11,9,PIM,1
+,,,,,,,,,,,,,,,,,,,,20,11,"add employee",1
+,,,,,,,,,,,,,,,,,,,,20,11,"add employee",1
+,,,,,,,,,,,,,,,,,,,,12,9,Leave,1
+,,,,,,,,,,,,,,,,,,,,12,9,Leave,1
+,,,,,,,,,,,,,,,,,,,,13,9,Time,1
+,,,,,,,,,,,,,,,,,,,,13,9,Time,1
+,,,,,,,,,,,,,,,,,,,,14,9,Recruitment,1
+,,,,,,,,,,,,,,,,,,,,14,9,Recruitment,1
+,,,,,,,,,,,,,,,,,,,,15,9,"My Info",1
+,,,,,,,,,,,,,,,,,,,,15,9,"My Info",1
+,,,,,,,,,,,,,,,,,,,,16,9,Performance,1
+,,,,,,,,,,,,,,,,,,,,16,9,Performance,1
+,,,,,,,,,,,,,,,,,,,,17,9,Dashboard,1
+,,,,,,,,,,,,,,,,,,,,17,9,Dashboard,1
+,,,,,,,,,,,,,,,,,,,,18,9,Directory,1
+,,,,,,,,,,,,,,,,,,,,18,9,Directory,1
+,,,,,,,,,,,,,,,,,,,,19,9,Buzz,1
+,,,,,,,,,,,,,,,,,,,,19,9,Buzz,1
+3,"employment status add","menambahkan user admin","Login sebagai admin","data berhasil ditambahkan ke database",,high,major,functional,positive,to-be-automated,actual,no,api,classic,"1. login sebagai admin
+2. pilih menu admin
+3. klik button add
+4. mengisi form add user
+5. memilih user role
+6. memilih status
+7. mengisi form nama
+8. mengisi form username
+9. mengisi password
+10. | mengisi confrim password |
+| ------------------------ |
+|
+
+
+<br>
+11. klik button save
+","1. masuk ke halaman beranda
+2. 
+3. | masuk ke halaman form add user |
+| ------------------------------ |
+|
+
+
+<br>
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. data tersimpan di database
+","1. 
+2. 
+3. 
+4. 
+5. pilih admin
+6. pilih enabled
+7. 
+8. username
+9. password
+10. pasword
+11. 
+",,,10,9,Admin,
+4,"Employment status delete",,"login sebagai admin","data terhapus",,high,major,functional,positive,to-be-automated,actual,no,api,classic,"1. | login sebagai admin |
+| ------------------- |
+|
+
+
+<br>
+2. | pilih menu admin |
+| ---------------- |
+|
+
+
+<br>
+3. klik sub menu employee list
+4. klik button delete
+5. Klik button yes
+","1. | masuk ke halaman beranda |
+| ------------------------ |
+|
+
+
+<br>
+2. 
+3. menampilkan data employee
+4. muncul pop up ""The selected record will be permanently deleted. Are you sure you want to continue?""
+5. data berhasil terhaous
+","1. 
+2. 
+3. 
+4. 
+5. 
+",,,10,9,Admin,
+5,"Employment Status - Update",,,,,undefined,normal,other,undefined,is-not-automated,actual,no,unknown,classic,,,,,,10,9,Admin,
+6,"employee list","menmapilkan data employee","berhasil login",,,high,normal,functional,positive,to-be-automated,actual,no,api,classic,"1. buka halaman login
+2. masukan username
+3. masukan password
+4. klik button login
+5. pilih sub menu PIM
+6. klik topbar employee list
+","1. 
+2. 
+3. 
+4. muncul pop up berhasil login, masuk ke halaman beranda
+5. menampilkan halaman employee list
+6. menampilkan halaman employee list
+","1. 
+2. username
+3. password
+4. 
+5. 
+6. 
+",,,11,9,PIM,
+8,"delete employee","menghapus data","menampilkan halaman data pegawai",,,high,normal,functional,positive,to-be-automated,actual,no,api,classic,"1. masuk ke halaman beranda
+2. klik menu PIM
+3. Klik topbar employe list
+4. Pilih data yang akan di hapus
+5. klik button hapus
+","1. 
+2. 
+3. menampilkan data pegawai
+4. 
+5. data terhapus
+","1. 
+2. 
+3. 
+4. 
+5. 
+",,,11,9,PIM,
+7,"add employee","menambahkan data pegawai","membuka halaman PIM",,,high,normal,functional,positive,to-be-automated,actual,no,unknown,classic,"1. klik topbar add employee
+2. memasukan foto
+3. mengisi form nama
+4. klik button save
+","1. masuk ke halaman add employee
+2. 
+3. 
+4. data berhasil tersimpan di database
+","1. 
+2. image
+3. first, middle, last name
+4. 
+",,,20,11,"add employee",
+9,"leave list","menampilkan list pegawai yang leave","masuk ke halaman beranda",,,high,normal,functional,positive,to-be-automated,actual,no,unknown,classic,"1. masuk ke halaman beranda
+2. klik menu leave
+3. klik topbar leave list
+","1. 
+2. menampilkan halaman leave
+3. menampilkan leave list
+","1. 
+2. 
+3. 
+",,,12,9,Leave,
+10,"assign leave","menginput data keryawan leave","masuk ke halaman beranda",,,high,normal,functional,undefined,to-be-automated,actual,no,api,classic,"1. masuk ke halaman beranda
+2. klik menu leave
+3. klik topbar Assign Leave
+4. Mengisi nama karyawan
+5. memilih type leave
+6. menginput tgl mulai kerja
+7. menginput tgl berhenti kerja
+8. klik button assign
+","1. 
+2. menampilkan halaman leave
+3. mdnampilkan form isi assign leave
+4. 
+5. 
+6. 
+7. 
+8. data tersimpan di database
+","1. 
+2. 
+3. 
+4. nama karyawan
+5. 
+6. 
+7. 
+8. 
+",,,12,9,Leave,
+11,"Project info",,"masuk ke halaman beranda",,,medium,normal,functional,positive,to-be-automated,actual,no,api,classic,"1. masuk ke halaman beranda
+2. pilih main menu time
+3. klik topbar project info
+4. pilih projects
+","1. 
+2. menampilkan halaman time
+3. muncul option
+4. menampilkan data project
+","1. 
+2. 
+3. 
+4. 
+",,,13,9,Time,
+12,candidates,"menampilkan data candidates","masuk ke halaman beranda","menampilkan data candidates",,high,major,functional,positive,to-be-automated,actual,no,api,classic,"1. masuk ke halaman beranda
+2. pilih main menu recruitment
+","1. 
+2. menampilkan halaman recruitment
+","1. 
+2. 
+",,,14,9,Recruitment,
+13,"informasi user akun",https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMyDetails,"masuk ke halaman beranda","menampilkan halaman my Info",,medium,normal,functional,positive,to-be-automated,actual,no,api,classic,"1. masuk ke halaman beranda
+2. pilih main menu My Info
+","1. 
+2. masuk ke halaman My Info
+","1. 
+2. 
+",,,15,9,"My Info",
+14,"performance review","melihat status pekerjaan karyawan","masuk ke halaman beranda",,,high,normal,functional,undefined,to-be-automated,actual,no,unknown,classic,"1. masuk ke halaman beranda
+2. pilih main menu Performance
+","1. 
+2. menampilkan halaman Performance Review
+","1. 
+2. 
+",,,16,9,Performance,
+15,index,"menampilkan halaman dashboard","masuk ke halaman beranda","menampilkan halaman index",,high,critical,functional,negative,is-not-automated,actual,no,api,classic,"1. masuk ke halaman beranda
+2. pilih main menu Dashboard
+3. masuk ke halaman Index
+","1. 
+2. menampilkan hallaman dashboard
+3. alert ""This page is currently under development for OrangeHRM""
+","1. 
+2. 
+3. 
+",,,17,9,Dashboard,
+16,"View Directory","menampilkan informasi gamabr dan informasi kontak pegawai","masuk ke halaman beranda","menampilkan halaman directory",,medium,normal,functional,positive,to-be-automated,actual,no,api,classic,"1. masuk ke halaman beranda
+2. pilih main menu directory
+","1. 
+2. menampilkan halaman directory
+","1. 
+2. 
+",,,18,9,Directory,
+17,"view buzz","menampilkan halaman buzz",,,,high,critical,other,negative,is-not-automated,actual,no,api,classic,"1. masuk ke halaman beranda
+2. pilih main menu buzz
+3. masuk ke halaman buzz
+","1. 
+2. menampilkan halaman menu buzz
+3. alert ""This page is currently under development for OrangeHRM""
+","1. 
+2. 
+3. 
+",,,19,9,Buzz,
